@@ -1,8 +1,8 @@
 <?php
-namespace Dark\Sdk\CoreAuth;
+namespace DevArk\Sdk\Auth;
 
-use Dark\Sdk\CoreAuth\Domain\Auth\DarkCoreAuthService;
-use Dark\Sdk\CoreAuth\Support\DarkCoreClient;
+use DevArk\Sdk\Auth\Domain\Auth\DarkCoreAuthService;
+use DevArk\Sdk\Auth\Support\DarkCoreClient;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\ServiceProvider;
 

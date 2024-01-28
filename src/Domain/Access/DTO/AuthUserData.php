@@ -1,10 +1,9 @@
 <?php
 
-namespace Dark\Sdk\CoreAuth\Domain\Access\DTO;
+namespace DevArk\Sdk\Auth\Domain\Access\DTO;
 
-use Carbon\Carbon;
-use Illuminate\Support\Facades\Log;
 use Spatie\DataTransferObject\DataTransferObject;
+use Spatie\DataTransferObject\Exceptions\UnknownProperties;
 
 class AuthUserData extends DataTransferObject
 {
@@ -15,6 +14,9 @@ class AuthUserData extends DataTransferObject
     public ?UserInfo $user_info;
     public ?string $name;
 
+    /**
+     * @throws UnknownProperties
+     */
     public static function fromResponse(array $response = []): self
     {
         $data = [

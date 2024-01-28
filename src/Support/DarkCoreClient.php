@@ -1,9 +1,9 @@
 <?php
 
-namespace Dark\Sdk\CoreAuth\Support;
+namespace DevArk\Sdk\Auth\Support;
 
 use GuzzleHttp\Client;
-use Dark\Sdk\CoreAuth\Support\Exceptions\DarkCoreException;
+use DevArk\Sdk\Auth\Support\Exceptions\DarkCoreException;
 
 class DarkCoreClient
 {

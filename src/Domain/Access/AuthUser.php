@@ -1,9 +1,9 @@
 <?php
 
-namespace Dark\Sdk\CoreAuth\Domain\Access;
+namespace DevArk\Sdk\Auth\Domain\Access;
 
 use Illuminate\Contracts\Auth\Authenticatable;
-use Dark\Sdk\CoreAuth\Domain\Access\DTO\AuthUserData;
+use DevArk\Sdk\Auth\Domain\Access\DTO\AuthUserData;
 use Illuminate\Support\Facades\Log;
 
 class AuthUser implements Authenticatable
@@ -15,7 +15,7 @@ class AuthUser implements Authenticatable
         $this->name = $authUserData->username??"";
     }
 
-    public function getAuthIdentifierName()
+    public function getAuthIdentifierName(): string
     {
         return 'id';
     }

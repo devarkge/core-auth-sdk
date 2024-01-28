@@ -1,11 +1,11 @@
 <?php
 
-namespace Dark\Sdk\CoreAuth\Domain\Auth;
+namespace DevArk\Sdk\Auth\Domain\Auth;
 
-use App\Domain\Auth\Exceptions\UserWithExpiredLicenseException;
-use Dark\Sdk\CoreAuth\Domain\Access\AuthUser;
-use Dark\Sdk\CoreAuth\Domain\Access\DTO\AuthUserData;
-use Dark\Sdk\CoreAuth\Domain\DarkCoreClientService;
+
+use DevArk\Sdk\Auth\Domain\Access\AuthUser;
+use DevArk\Sdk\Auth\Domain\Access\DTO\AuthUserData;
+use DevArk\Sdk\Auth\Domain\DarkCoreClientService;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Support\Facades\Log;

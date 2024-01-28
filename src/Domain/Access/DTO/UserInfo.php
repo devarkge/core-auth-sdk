@@ -1,6 +1,6 @@
 <?php
 
-namespace Dark\Sdk\CoreAuth\Domain\Access\DTO;
+namespace DevArk\Sdk\Auth\Domain\Access\DTO;
 
 use Spatie\DataTransferObject\DataTransferObject;
 

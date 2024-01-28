@@ -1,5 +1,5 @@
 {
-  "name": "devark/e-commerce-sdk",
+  "name": "ddevark/e-commerce-sdk",
 
   "version": "1.0.0",
   "description": "Core authentication service",
@@ -20,7 +20,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "DevArk\\Sdk\\ECommerce\\": "src"
+      "DevArk\\Sdk\\Auth\\": "src"
     }
   },
   "extra": {

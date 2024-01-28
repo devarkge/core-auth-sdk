@@ -1,6 +1,6 @@
 <?php
 
-namespace Dark\Sdk\CoreAuth\Support\Exceptions;
+namespace DevArk\Sdk\Auth\Support\Exceptions;
 
 use Throwable;
 class DarkCoreException extends \Exception

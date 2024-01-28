@@ -1,8 +1,8 @@
 <?php
 
-namespace Dark\Sdk\CoreAuth\Domain;
+namespace DevArk\Sdk\Auth\Domain;
 
-use Dark\Sdk\CoreAuth\Support\DarkCoreClient;
+use DevArk\Sdk\Auth\Support\DarkCoreClient;
 
 class DarkCoreClientService
 {
