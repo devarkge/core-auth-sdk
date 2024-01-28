@@ -1,0 +1,33 @@
+{
+  "name": "devark/e-commerce-sdk",
+
+  "version": "1.0.0",
+  "description": "Core authentication service",
+  "type": "library",
+  "require": {
+    "php": "^8.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6.3|^7.0",
+    "illuminate/support": "^9.39.0",
+      "spatie/data-transfer-object": "^3.9.1"
+  },
+  "license": "copyright",
+  "authors": [
+    {
+      "name": "Vako Batiashvili",
+      "email": "vako.batiashvili1998@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DevArk\\Sdk\\ECommerce\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DevArk\\Sdk\\ECommerce\\EcommerceSdkServiceProvider"
+      ]
+    }
+  }
+}
