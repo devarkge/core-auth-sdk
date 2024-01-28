@@ -1,6 +1,5 @@
 {
-  "name": "devark/e-commerce-sdk",
-
+  "name": "devark/auth-sdk",
   "version": "1.0.0",
   "description": "Core authentication service",
   "type": "library",
